@@ -60,8 +60,10 @@ Global Flags:
 
 ```bash
 jzero new your_project --branch api
+jzero gen
 # 如果需要与原生 goctl 保持同样的目录结构请使用
 jzero new your_project --branch api-goctl
+jzero gen
 ```
 
 @tab Docker
@@ -85,8 +87,10 @@ docker run --rm -v ${PWD}:/app ghcr.io/jzero-io/jzero:latest new your_project --
 
 ```bash
 jzero new your_project --branch rpc
+jzero gen
 # 如果需要与原生 goctl 保持同样的目录结构请使用
 jzero new your_project --branch rpc-goctl
+jzero gen
 ```
 
 @tab Docker
@@ -110,6 +114,7 @@ docker run --rm -v ${PWD}:/app ghcr.io/jzero-io/jzero:latest new your_project --
 
 ```bash
 jzero new your_project --branch gateway
+jzero gen
 ```
 
 @tab Docker
@@ -133,6 +138,7 @@ docker run --rm -v ${PWD}:/app ghcr.io/jzero-io/jzero:latest new your_project --
 
 ```bash
 jzero new your_project
+jzero gen
 ```
 
 @tab Docker
@@ -154,6 +160,7 @@ docker run --rm -v ${PWD}:/app ghcr.io/jzero-io/jzero:latest new your_project
 
 ```bash
 jzero new your_project --branch cli
+jzero gen
 ```
 
 @tab Docker
