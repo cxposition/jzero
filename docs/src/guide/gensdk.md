@@ -100,8 +100,9 @@ func main() {
 	clientset, err := your_project.NewClientWithOptions(
 		restc.WithAddr("127.0.0.1"),
 		restc.WithPort("8001"),
-		restc.WithProtocol("http")),
+		restc.WithProtocol("http"),
 		restc.WithHeaders(headers),
+	)
 	if err != nil {
 		panic(err)
 	}
